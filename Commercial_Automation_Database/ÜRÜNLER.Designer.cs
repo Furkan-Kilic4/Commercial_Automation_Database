@@ -47,6 +47,7 @@
             label2 = new Label();
             TXTID = new TextBox();
             label1 = new Label();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)NUADET).BeginInit();
@@ -59,11 +60,12 @@
             dataGridView1.Location = new Point(12, 12);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(694, 483);
+            dataGridView1.Size = new Size(694, 552);
             dataGridView1.TabIndex = 0;
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(TXTSATIS);
             groupBox1.Controls.Add(label7);
@@ -83,10 +85,10 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(741, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(359, 483);
+            groupBox1.Size = new Size(359, 552);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
-            groupBox1.Text = "ÜRÜN EKLE";
+            groupBox1.Text = "ÜRÜN EKLE-SİL";
             // 
             // button1
             // 
@@ -238,11 +240,21 @@
             label1.TabIndex = 0;
             label1.Text = "ID:";
             // 
+            // button2
+            // 
+            button2.Location = new Point(152, 485);
+            button2.Name = "button2";
+            button2.Size = new Size(185, 29);
+            button2.TabIndex = 17;
+            button2.Text = "SİL";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // ÜRÜNLER
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1112, 507);
+            ClientSize = new Size(1112, 603);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
             Name = "ÜRÜNLER";
@@ -276,5 +288,6 @@
         private NumericUpDown NUADET;
         private Label label6;
         private Button button1;
+        private Button button2;
     }
 }
