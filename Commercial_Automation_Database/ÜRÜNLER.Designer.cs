@@ -31,25 +31,25 @@
             dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
             button1 = new Button();
-            textBox5 = new TextBox();
+            TXTSATIS = new TextBox();
             label7 = new Label();
-            textBox6 = new TextBox();
+            TXTALIS = new TextBox();
             label8 = new Label();
-            numericUpDown1 = new NumericUpDown();
+            NUADET = new NumericUpDown();
             label6 = new Label();
             label5 = new Label();
-            maskedTextBox1 = new MaskedTextBox();
-            textBox4 = new TextBox();
+            MTXTYIL = new MaskedTextBox();
+            TXTMODEL = new TextBox();
             label4 = new Label();
-            textBox3 = new TextBox();
+            TXTMARKA = new TextBox();
             label3 = new Label();
-            textBox2 = new TextBox();
+            TXTAD = new TextBox();
             label2 = new Label();
-            textBox1 = new TextBox();
+            TXTID = new TextBox();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)NUADET).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
@@ -59,29 +59,29 @@
             dataGridView1.Location = new Point(12, 12);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(527, 483);
+            dataGridView1.Size = new Size(694, 483);
             dataGridView1.TabIndex = 0;
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(textBox5);
+            groupBox1.Controls.Add(TXTSATIS);
             groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(textBox6);
+            groupBox1.Controls.Add(TXTALIS);
             groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(numericUpDown1);
+            groupBox1.Controls.Add(NUADET);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(maskedTextBox1);
-            groupBox1.Controls.Add(textBox4);
+            groupBox1.Controls.Add(MTXTYIL);
+            groupBox1.Controls.Add(TXTMODEL);
             groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(TXTMARKA);
             groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(TXTAD);
             groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(TXTID);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(558, 12);
+            groupBox1.Location = new Point(741, 12);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(359, 483);
             groupBox1.TabIndex = 1;
@@ -96,13 +96,14 @@
             button1.TabIndex = 16;
             button1.Text = "KAYDET";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // textBox5
+            // TXTSATIS
             // 
-            textBox5.Location = new Point(152, 382);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(185, 27);
-            textBox5.TabIndex = 15;
+            TXTSATIS.Location = new Point(152, 382);
+            TXTSATIS.Name = "TXTSATIS";
+            TXTSATIS.Size = new Size(185, 27);
+            TXTSATIS.TabIndex = 15;
             // 
             // label7
             // 
@@ -114,12 +115,12 @@
             label7.TabIndex = 14;
             label7.Text = "SATIŞ FİYATI:";
             // 
-            // textBox6
+            // TXTALIS
             // 
-            textBox6.Location = new Point(152, 333);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(185, 27);
-            textBox6.TabIndex = 13;
+            TXTALIS.Location = new Point(152, 333);
+            TXTALIS.Name = "TXTALIS";
+            TXTALIS.Size = new Size(185, 27);
+            TXTALIS.TabIndex = 13;
             // 
             // label8
             // 
@@ -132,12 +133,12 @@
             label8.Text = "ALIŞ FİYATI:";
             label8.Click += label8_Click;
             // 
-            // numericUpDown1
+            // NUADET
             // 
-            numericUpDown1.Location = new Point(152, 294);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(185, 27);
-            numericUpDown1.TabIndex = 11;
+            NUADET.Location = new Point(152, 294);
+            NUADET.Name = "NUADET";
+            NUADET.Size = new Size(185, 27);
+            NUADET.TabIndex = 11;
             // 
             // label6
             // 
@@ -160,21 +161,21 @@
             label5.Text = "YIL:";
             label5.Click += label5_Click;
             // 
-            // maskedTextBox1
+            // MTXTYIL
             // 
-            maskedTextBox1.Location = new Point(152, 249);
-            maskedTextBox1.Mask = "0000";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(185, 27);
-            maskedTextBox1.TabIndex = 8;
-            maskedTextBox1.ValidatingType = typeof(int);
+            MTXTYIL.Location = new Point(152, 249);
+            MTXTYIL.Mask = "0000";
+            MTXTYIL.Name = "MTXTYIL";
+            MTXTYIL.Size = new Size(185, 27);
+            MTXTYIL.TabIndex = 8;
+            MTXTYIL.ValidatingType = typeof(int);
             // 
-            // textBox4
+            // TXTMODEL
             // 
-            textBox4.Location = new Point(152, 199);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(185, 27);
-            textBox4.TabIndex = 7;
+            TXTMODEL.Location = new Point(152, 199);
+            TXTMODEL.Name = "TXTMODEL";
+            TXTMODEL.Size = new Size(185, 27);
+            TXTMODEL.TabIndex = 7;
             // 
             // label4
             // 
@@ -186,12 +187,12 @@
             label4.TabIndex = 6;
             label4.Text = "MODEL:";
             // 
-            // textBox3
+            // TXTMARKA
             // 
-            textBox3.Location = new Point(152, 144);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(185, 27);
-            textBox3.TabIndex = 5;
+            TXTMARKA.Location = new Point(152, 144);
+            TXTMARKA.Name = "TXTMARKA";
+            TXTMARKA.Size = new Size(185, 27);
+            TXTMARKA.TabIndex = 5;
             // 
             // label3
             // 
@@ -203,12 +204,12 @@
             label3.TabIndex = 4;
             label3.Text = "MARKA:";
             // 
-            // textBox2
+            // TXTAD
             // 
-            textBox2.Location = new Point(152, 91);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(185, 27);
-            textBox2.TabIndex = 3;
+            TXTAD.Location = new Point(152, 91);
+            TXTAD.Name = "TXTAD";
+            TXTAD.Size = new Size(185, 27);
+            TXTAD.TabIndex = 3;
             // 
             // label2
             // 
@@ -220,12 +221,12 @@
             label2.TabIndex = 2;
             label2.Text = "ÜRÜN ADI:";
             // 
-            // textBox1
+            // TXTID
             // 
-            textBox1.Location = new Point(152, 42);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(185, 27);
-            textBox1.TabIndex = 1;
+            TXTID.Location = new Point(152, 42);
+            TXTID.Name = "TXTID";
+            TXTID.Size = new Size(185, 27);
+            TXTID.TabIndex = 1;
             // 
             // label1
             // 
@@ -250,7 +251,7 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)NUADET).EndInit();
             ResumeLayout(false);
         }
 
@@ -258,21 +259,21 @@
 
         private DataGridView dataGridView1;
         private GroupBox groupBox1;
-        private TextBox textBox4;
+        private TextBox TXTMODEL;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox TXTMARKA;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox TXTAD;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox TXTID;
         private Label label1;
         private Label label5;
-        private MaskedTextBox maskedTextBox1;
-        private TextBox textBox5;
+        private MaskedTextBox MTXTYIL;
+        private TextBox TXTSATIS;
         private Label label7;
-        private TextBox textBox6;
+        private TextBox TXTALIS;
         private Label label8;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown NUADET;
         private Label label6;
         private Button button1;
     }

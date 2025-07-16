@@ -24,8 +24,8 @@ namespace Commercial_Automation_Database
         void listele()
         {
             DataSet ds = new DataSet();
-            SqlDataAdapter da = new SqlDataAdapter("select * from TBL_URUNLER",bgl.baglanti());
-            da.Fill(ds);    
+            SqlDataAdapter da = new SqlDataAdapter("select * from TBL_URUNLER", bgl.baglanti());
+            da.Fill(ds);
             dataGridView1.DataSource = ds.Tables[0];
         }
 
@@ -42,6 +42,73 @@ namespace Commercial_Automation_Database
         private void ÜRÜNLER_Load(object sender, EventArgs e)
         {
             listele();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int hata = 0;
+            if (TXTAD.Text == string.Empty)
+            {
+                hata = 1;
+            }
+
+            if (TXTMARKA.Text == string.Empty)
+            {
+                hata = 1;
+            }
+
+            if (TXTMODEL.Text == string.Empty)
+            {
+                hata = 1;
+            }
+
+            if (MTXTYIL.Text == string.Empty)
+            {
+                hata = 1;
+            }
+
+            if (NUADET.Text == string.Empty)
+            {
+                hata = 1;
+            }
+
+            if (TXTALIS.Text == string.Empty)
+            {
+                hata = 1;
+            }
+
+            if (TXTSATIS.Text == string.Empty)
+            {
+                hata = 1;
+            }
+
+            if (hata == 1)
+            {
+                MessageBox.Show("BOŞ ALANLARI DOLDURUNUZ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; 
+            }
+
+            
+            string sorgu = "insert into TBL_URUNLER (URUNAD,MARKA,MODEL,YIL,ADET,ALISFIYATI,SATISFIYATI) values ('"
+                + TXTAD.Text + "', '" + TXTMARKA.Text + "', '" + TXTMODEL.Text + "', '" + MTXTYIL.Text + "', "
+                + NUADET.Text + ", " + TXTALIS.Text + ", " + TXTSATIS.Text + ")";
+
+            SqlCommand cm = new SqlCommand(sorgu, bgl.baglanti());
+            int basari = cm.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
+            if (basari == 1)
+            {
+                MessageBox.Show("KAYIT EKLENDİ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                listele();
+            }
+            else
+            {
+                MessageBox.Show("KAYIT EKLENMEDİ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+
+
         }
     }
 }
