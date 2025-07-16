@@ -51,7 +51,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { anasayfaToolStripMenuItem, ürünlerToolStripMenuItem, stoklarToolStripMenuItem, müşterilerToolStripMenuItem, şirketlerToolStripMenuItem, personellerToolStripMenuItem, giderlerToolStripMenuItem, kasaToolStripMenuItem, bankalarToolStripMenuItem, faturalarToolStripMenuItem, yardımToolStripMenuItem, ayarlarToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1289, 86);
+            menuStrip1.Size = new Size(1212, 86);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -72,6 +72,7 @@
             ürünlerToolStripMenuItem.Size = new Size(94, 82);
             ürünlerToolStripMenuItem.Text = "Ürünler";
             ürünlerToolStripMenuItem.TextImageRelation = TextImageRelation.ImageAboveText;
+            ürünlerToolStripMenuItem.Click += ürünlerToolStripMenuItem_Click;
             // 
             // stoklarToolStripMenuItem
             // 
@@ -167,11 +168,13 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1289, 450);
+            ClientSize = new Size(1212, 607);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
