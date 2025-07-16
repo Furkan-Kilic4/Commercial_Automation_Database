@@ -30,6 +30,7 @@
         {
             dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
+            button2 = new Button();
             button1 = new Button();
             TXTSATIS = new TextBox();
             label7 = new Label();
@@ -47,7 +48,7 @@
             label2 = new Label();
             TXTID = new TextBox();
             label1 = new Label();
-            button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)NUADET).BeginInit();
@@ -60,11 +61,13 @@
             dataGridView1.Location = new Point(12, 12);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(694, 552);
+            dataGridView1.Size = new Size(694, 574);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(button3);
             groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(TXTSATIS);
@@ -85,10 +88,20 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(741, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(359, 552);
+            groupBox1.Size = new Size(359, 574);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "ÜRÜN EKLE-SİL";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(152, 485);
+            button2.Name = "button2";
+            button2.Size = new Size(185, 29);
+            button2.TabIndex = 17;
+            button2.Text = "SİL";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -240,21 +253,21 @@
             label1.TabIndex = 0;
             label1.Text = "ID:";
             // 
-            // button2
+            // button3
             // 
-            button2.Location = new Point(152, 485);
-            button2.Name = "button2";
-            button2.Size = new Size(185, 29);
-            button2.TabIndex = 17;
-            button2.Text = "SİL";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            button3.Location = new Point(152, 539);
+            button3.Name = "button3";
+            button3.Size = new Size(185, 29);
+            button3.TabIndex = 18;
+            button3.Text = "GÜNCELLE";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // ÜRÜNLER
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1112, 603);
+            ClientSize = new Size(1112, 615);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
             Name = "ÜRÜNLER";
@@ -289,5 +302,6 @@
         private Label label6;
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }

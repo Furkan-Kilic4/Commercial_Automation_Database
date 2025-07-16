@@ -121,19 +121,19 @@ namespace Commercial_Automation_Database
         private void button2_Click(object sender, EventArgs e)
         {
             int hata = 0;
-            if (TXTID.Text==string.Empty)
+            if (TXTID.Text == string.Empty)
             {
                 hata = 1;
             }
 
-            if (hata==1)
+            if (hata == 1)
             {
                 MessageBox.Show("SİLENECEK ID GİRİNİZ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             else
             {
-                SqlCommand komut = new SqlCommand("select * from TBL_URUNLER where ID ='"+TXTID.Text+"'",bgl.baglanti());
+                SqlCommand komut = new SqlCommand("select * from TBL_URUNLER where ID ='" + TXTID.Text + "'", bgl.baglanti());
                 komut.ExecuteNonQuery();
                 SqlDataReader dr = komut.ExecuteReader();
                 if (dr.Read())
@@ -160,6 +160,53 @@ namespace Commercial_Automation_Database
             TXTID.Clear();
             listele();
             bgl.baglanti().Close();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            TXTID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            TXTAD.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            TXTMARKA.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            TXTMODEL.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            MTXTYIL.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+            NUADET.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
+            TXTALIS.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
+            TXTSATIS.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SqlCommand cm = new SqlCommand("Update TBL_URUNLER set URUNAD=@p1,MARKA=@p2,MODEL=@p3,YIL=@p4,ADET=@p5,ALISFIYATI=@p6,SATISFIYATI=@p7 where ID = @p8",bgl.baglanti());
+            cm.Parameters.AddWithValue("@p1", TXTAD.Text);
+            cm.Parameters.AddWithValue("@p2", TXTMARKA.Text);
+            cm.Parameters.AddWithValue("@p3", TXTMODEL.Text);
+            cm.Parameters.AddWithValue("@p4", MTXTYIL.Text);
+            cm.Parameters.AddWithValue("@p5", int.Parse(((NUADET.Value).ToString())));
+            cm.Parameters.AddWithValue("@p6", decimal.Parse(TXTALIS.Text));
+            cm.Parameters.AddWithValue("@p7", decimal.Parse(TXTSATIS.Text));
+            cm.Parameters.AddWithValue("@p8", TXTID.Text);
+
+
+            int basari = cm.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
+            if (basari == 1)
+            {
+                MessageBox.Show("KAYIT GÜNCELLENDİ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                listele();
+                TXTID.Clear();
+                TXTAD.Clear();
+                TXTMARKA.Clear();
+                TXTMODEL.Clear();
+                MTXTYIL.Clear();
+                TXTALIS.Clear();
+                TXTSATIS.Clear();
+            }
+            else
+            {
+                MessageBox.Show("KAYIT GÜNCELLENEMEDİ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
         }
     }
 }
