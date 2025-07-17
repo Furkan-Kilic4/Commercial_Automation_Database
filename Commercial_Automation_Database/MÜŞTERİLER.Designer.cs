@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            BTNGUNCELLE = new Button();
+            BTNSIL = new Button();
+            BTNKAYDET = new Button();
             label7 = new Label();
-            TXTALIS = new TextBox();
+            TXTMAIL = new TextBox();
             label8 = new Label();
             NUADET = new NumericUpDown();
             label6 = new Label();
             label5 = new Label();
-            MTXTYIL = new MaskedTextBox();
+            MTXTTEL = new MaskedTextBox();
             label4 = new Label();
-            TXTMARKA = new TextBox();
+            TXTSOYAD = new TextBox();
             label3 = new Label();
             TXTAD = new TextBox();
             label2 = new Label();
@@ -47,44 +47,44 @@
             label1 = new Label();
             groupBox1 = new GroupBox();
             label10 = new Label();
-            textBox1 = new TextBox();
+            TXTVERGI = new TextBox();
             label9 = new Label();
-            richTextBox1 = new RichTextBox();
-            comboBox2 = new ComboBox();
-            comboBox1 = new ComboBox();
-            maskedTextBox1 = new MaskedTextBox();
+            RTXTADRES = new RichTextBox();
+            CBILCE = new ComboBox();
+            CBIL = new ComboBox();
+            MTXTTC = new MaskedTextBox();
             dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)NUADET).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // button3
+            // BTNGUNCELLE
             // 
-            button3.Location = new Point(159, 471);
-            button3.Name = "button3";
-            button3.Size = new Size(185, 29);
-            button3.TabIndex = 18;
-            button3.Text = "GÜNCELLE";
-            button3.UseVisualStyleBackColor = true;
+            BTNGUNCELLE.Location = new Point(159, 471);
+            BTNGUNCELLE.Name = "BTNGUNCELLE";
+            BTNGUNCELLE.Size = new Size(185, 29);
+            BTNGUNCELLE.TabIndex = 18;
+            BTNGUNCELLE.Text = "GÜNCELLE";
+            BTNGUNCELLE.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // BTNSIL
             // 
-            button2.Location = new Point(159, 521);
-            button2.Name = "button2";
-            button2.Size = new Size(185, 29);
-            button2.TabIndex = 17;
-            button2.Text = "SİL";
-            button2.UseVisualStyleBackColor = true;
+            BTNSIL.Location = new Point(159, 521);
+            BTNSIL.Name = "BTNSIL";
+            BTNSIL.Size = new Size(185, 29);
+            BTNSIL.TabIndex = 17;
+            BTNSIL.Text = "SİL";
+            BTNSIL.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // BTNKAYDET
             // 
-            button1.Location = new Point(159, 424);
-            button1.Name = "button1";
-            button1.Size = new Size(185, 29);
-            button1.TabIndex = 16;
-            button1.Text = "KAYDET";
-            button1.UseVisualStyleBackColor = true;
+            BTNKAYDET.Location = new Point(159, 424);
+            BTNKAYDET.Name = "BTNKAYDET";
+            BTNKAYDET.Size = new Size(185, 29);
+            BTNKAYDET.TabIndex = 16;
+            BTNKAYDET.Text = "KAYDET";
+            BTNKAYDET.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -96,12 +96,12 @@
             label7.TabIndex = 14;
             label7.Text = "İLÇE:";
             // 
-            // TXTALIS
+            // TXTMAIL
             // 
-            TXTALIS.Location = new Point(159, 187);
-            TXTALIS.Name = "TXTALIS";
-            TXTALIS.Size = new Size(185, 27);
-            TXTALIS.TabIndex = 13;
+            TXTMAIL.Location = new Point(159, 187);
+            TXTMAIL.Name = "TXTMAIL";
+            TXTMAIL.Size = new Size(185, 27);
+            TXTMAIL.TabIndex = 13;
             // 
             // label8
             // 
@@ -140,13 +140,13 @@
             label5.TabIndex = 9;
             label5.Text = "TC:";
             // 
-            // MTXTYIL
+            // MTXTTEL
             // 
-            MTXTYIL.Location = new Point(159, 121);
-            MTXTYIL.Mask = "(999) 000-0000";
-            MTXTYIL.Name = "MTXTYIL";
-            MTXTYIL.Size = new Size(185, 27);
-            MTXTYIL.TabIndex = 8;
+            MTXTTEL.Location = new Point(159, 121);
+            MTXTTEL.Mask = "(999) 000-0000";
+            MTXTTEL.Name = "MTXTTEL";
+            MTXTTEL.Size = new Size(185, 27);
+            MTXTTEL.TabIndex = 8;
             // 
             // label4
             // 
@@ -158,12 +158,12 @@
             label4.TabIndex = 6;
             label4.Text = "TELEFON:";
             // 
-            // TXTMARKA
+            // TXTSOYAD
             // 
-            TXTMARKA.Location = new Point(159, 88);
-            TXTMARKA.Name = "TXTMARKA";
-            TXTMARKA.Size = new Size(185, 27);
-            TXTMARKA.TabIndex = 5;
+            TXTSOYAD.Location = new Point(159, 88);
+            TXTSOYAD.Name = "TXTSOYAD";
+            TXTSOYAD.Size = new Size(185, 27);
+            TXTSOYAD.TabIndex = 5;
             // 
             // label3
             // 
@@ -181,6 +181,7 @@
             TXTAD.Name = "TXTAD";
             TXTAD.Size = new Size(185, 27);
             TXTAD.TabIndex = 3;
+            TXTAD.TextChanged += TXTAD_TextChanged;
             // 
             // label2
             // 
@@ -212,24 +213,24 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(label10);
-            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(TXTVERGI);
             groupBox1.Controls.Add(label9);
-            groupBox1.Controls.Add(richTextBox1);
-            groupBox1.Controls.Add(comboBox2);
-            groupBox1.Controls.Add(comboBox1);
-            groupBox1.Controls.Add(maskedTextBox1);
-            groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(RTXTADRES);
+            groupBox1.Controls.Add(CBILCE);
+            groupBox1.Controls.Add(CBIL);
+            groupBox1.Controls.Add(MTXTTC);
+            groupBox1.Controls.Add(BTNGUNCELLE);
+            groupBox1.Controls.Add(BTNSIL);
+            groupBox1.Controls.Add(BTNKAYDET);
             groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(TXTALIS);
+            groupBox1.Controls.Add(TXTMAIL);
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(NUADET);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(MTXTYIL);
+            groupBox1.Controls.Add(MTXTTEL);
             groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(TXTMARKA);
+            groupBox1.Controls.Add(TXTSOYAD);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(TXTAD);
             groupBox1.Controls.Add(label2);
@@ -252,12 +253,12 @@
             label10.TabIndex = 25;
             label10.Text = "VERGİ NO:";
             // 
-            // textBox1
+            // TXTVERGI
             // 
-            textBox1.Location = new Point(159, 375);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(185, 27);
-            textBox1.TabIndex = 24;
+            TXTVERGI.Location = new Point(159, 375);
+            TXTVERGI.Name = "TXTVERGI";
+            TXTVERGI.Size = new Size(185, 27);
+            TXTVERGI.TabIndex = 24;
             // 
             // label9
             // 
@@ -269,38 +270,39 @@
             label9.TabIndex = 23;
             label9.Text = "ADRES:";
             // 
-            // richTextBox1
+            // RTXTADRES
             // 
-            richTextBox1.Location = new Point(159, 295);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(185, 71);
-            richTextBox1.TabIndex = 22;
-            richTextBox1.Text = "";
+            RTXTADRES.Location = new Point(159, 295);
+            RTXTADRES.Name = "RTXTADRES";
+            RTXTADRES.Size = new Size(185, 71);
+            RTXTADRES.TabIndex = 22;
+            RTXTADRES.Text = "";
             // 
-            // comboBox2
+            // CBILCE
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(159, 254);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(185, 28);
-            comboBox2.TabIndex = 21;
+            CBILCE.FormattingEnabled = true;
+            CBILCE.Location = new Point(159, 254);
+            CBILCE.Name = "CBILCE";
+            CBILCE.Size = new Size(185, 28);
+            CBILCE.TabIndex = 21;
             // 
-            // comboBox1
+            // CBIL
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(159, 220);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(185, 28);
-            comboBox1.TabIndex = 20;
+            CBIL.FormattingEnabled = true;
+            CBIL.Location = new Point(159, 220);
+            CBIL.Name = "CBIL";
+            CBIL.Size = new Size(185, 28);
+            CBIL.TabIndex = 20;
+            CBIL.SelectedIndexChanged += CBIL_SelectedIndexChanged;
             // 
-            // maskedTextBox1
+            // MTXTTC
             // 
-            maskedTextBox1.Location = new Point(159, 154);
-            maskedTextBox1.Mask = "00000000000";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(185, 27);
-            maskedTextBox1.TabIndex = 19;
-            maskedTextBox1.ValidatingType = typeof(int);
+            MTXTTC.Location = new Point(159, 154);
+            MTXTTC.Mask = "00000000000";
+            MTXTTC.Name = "MTXTTC";
+            MTXTTC.Size = new Size(185, 27);
+            MTXTTC.TabIndex = 19;
+            MTXTTC.ValidatingType = typeof(int);
             // 
             // dataGridView1
             // 
@@ -331,18 +333,18 @@
 
         #endregion
 
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button BTNGUNCELLE;
+        private Button BTNSIL;
+        private Button BTNKAYDET;
         private Label label7;
-        private TextBox TXTALIS;
+        private TextBox TXTMAIL;
         private Label label8;
         private NumericUpDown NUADET;
         private Label label6;
         private Label label5;
-        private MaskedTextBox MTXTYIL;
+        private MaskedTextBox MTXTTEL;
         private Label label4;
-        private TextBox TXTMARKA;
+        private TextBox TXTSOYAD;
         private Label label3;
         private TextBox TXTAD;
         private Label label2;
@@ -350,12 +352,12 @@
         private Label label1;
         private GroupBox groupBox1;
         private DataGridView dataGridView1;
-        private MaskedTextBox maskedTextBox1;
-        private RichTextBox richTextBox1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
+        private MaskedTextBox MTXTTC;
+        private RichTextBox RTXTADRES;
+        private ComboBox CBILCE;
+        private ComboBox CBIL;
         private Label label10;
-        private TextBox textBox1;
+        private TextBox TXTVERGI;
         private Label label9;
     }
 }
