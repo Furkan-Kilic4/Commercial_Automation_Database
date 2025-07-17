@@ -155,5 +155,65 @@ namespace Commercial_Automation_Database
                 MessageBox.Show("KAYIT EKLENMEDİ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            TXTID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            TXTAD.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            TXTSOYAD.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            MTXTTEL.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            MTXTTC.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+            TXTMAIL.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
+            CBIL.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
+            CBILCE.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
+            RTXTADRES.Text = dataGridView1.CurrentRow.Cells[8].Value.ToString();
+            TXTVERGI.Text = dataGridView1.CurrentRow.Cells[9].Value.ToString();
+
+        }
+
+        private void BTNSIL_Click(object sender, EventArgs e)
+        {
+            int hata = 0;
+            if (TXTID.Text == string.Empty)
+            {
+                hata = 1;
+            }
+
+            if (hata == 1)
+            {
+                MessageBox.Show("SİLENECEK ID GİRİNİZ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            else
+            {
+                SqlCommand komut = new SqlCommand("select * from TBL_MUSTERILER where ID ='" + TXTID.Text + "'", bgl.baglanti());
+                komut.ExecuteNonQuery();
+                SqlDataReader dr = komut.ExecuteReader();
+                if (dr.Read())
+                {
+                    SqlCommand cm = new SqlCommand("delete from TBL_MUSTERILER where ID ='" + TXTID.Text + "'", bgl.baglanti());
+                    int basari = cm.ExecuteNonQuery();
+                    bgl.baglanti().Close();
+                    if (basari == 1)
+                    {
+                        MessageBox.Show("KAYITLI MÜŞTERİ SİLİNDİ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("KAYITLI MÜŞTERİ SİLİNMEDİ", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+
+                else
+                {
+                    MessageBox.Show("BÖYLE BİR MÜŞTERİ BULUNAMADI", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+
+            TXTID.Clear();
+            listele();
+            bgl.baglanti().Close();
+        }
     }
-}
+    }
+

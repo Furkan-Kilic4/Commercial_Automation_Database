@@ -76,6 +76,7 @@
             BTNSIL.TabIndex = 17;
             BTNSIL.Text = "SİL";
             BTNSIL.UseVisualStyleBackColor = true;
+            BTNSIL.Click += BTNSIL_Click;
             // 
             // BTNKAYDET
             // 
@@ -314,6 +315,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(694, 574);
             dataGridView1.TabIndex = 2;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // MÜŞTERİLER
             // 
