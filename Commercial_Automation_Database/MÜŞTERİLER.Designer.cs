@@ -85,6 +85,7 @@
             BTNKAYDET.TabIndex = 16;
             BTNKAYDET.Text = "KAYDET";
             BTNKAYDET.UseVisualStyleBackColor = true;
+            BTNKAYDET.Click += BTNKAYDET_Click;
             // 
             // label7
             // 
