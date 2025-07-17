@@ -46,14 +46,14 @@
             TXTID = new TextBox();
             label1 = new Label();
             groupBox1 = new GroupBox();
-            dataGridView1 = new DataGridView();
-            maskedTextBox1 = new MaskedTextBox();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            richTextBox1 = new RichTextBox();
-            label9 = new Label();
-            textBox1 = new TextBox();
             label10 = new Label();
+            textBox1 = new TextBox();
+            label9 = new Label();
+            richTextBox1 = new RichTextBox();
+            comboBox2 = new ComboBox();
+            comboBox1 = new ComboBox();
+            maskedTextBox1 = new MaskedTextBox();
+            dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)NUADET).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -242,48 +242,22 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "MÜŞTERİ BİLGİLERİ";
             // 
-            // dataGridView1
+            // label10
             // 
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 12);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(694, 574);
-            dataGridView1.TabIndex = 2;
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            label10.Location = new Point(49, 371);
+            label10.Name = "label10";
+            label10.Size = new Size(104, 28);
+            label10.TabIndex = 25;
+            label10.Text = "VERGİ NO:";
             // 
-            // maskedTextBox1
+            // textBox1
             // 
-            maskedTextBox1.Location = new Point(159, 154);
-            maskedTextBox1.Mask = "00000000000";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(185, 27);
-            maskedTextBox1.TabIndex = 19;
-            maskedTextBox1.ValidatingType = typeof(int);
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(159, 220);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(185, 28);
-            comboBox1.TabIndex = 20;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(159, 254);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(185, 28);
-            comboBox2.TabIndex = 21;
-            // 
-            // richTextBox1
-            // 
-            richTextBox1.Location = new Point(159, 295);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(185, 71);
-            richTextBox1.TabIndex = 22;
-            richTextBox1.Text = "";
+            textBox1.Location = new Point(159, 375);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(185, 27);
+            textBox1.TabIndex = 24;
             // 
             // label9
             // 
@@ -295,22 +269,48 @@
             label9.TabIndex = 23;
             label9.Text = "ADRES:";
             // 
-            // textBox1
+            // richTextBox1
             // 
-            textBox1.Location = new Point(159, 375);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(185, 27);
-            textBox1.TabIndex = 24;
+            richTextBox1.Location = new Point(159, 295);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(185, 71);
+            richTextBox1.TabIndex = 22;
+            richTextBox1.Text = "";
             // 
-            // label10
+            // comboBox2
             // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label10.Location = new Point(49, 371);
-            label10.Name = "label10";
-            label10.Size = new Size(104, 28);
-            label10.TabIndex = 25;
-            label10.Text = "VERGİ NO:";
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(159, 254);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(185, 28);
+            comboBox2.TabIndex = 21;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(159, 220);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(185, 28);
+            comboBox1.TabIndex = 20;
+            // 
+            // maskedTextBox1
+            // 
+            maskedTextBox1.Location = new Point(159, 154);
+            maskedTextBox1.Mask = "00000000000";
+            maskedTextBox1.Name = "maskedTextBox1";
+            maskedTextBox1.Size = new Size(185, 27);
+            maskedTextBox1.TabIndex = 19;
+            maskedTextBox1.ValidatingType = typeof(int);
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(12, 12);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(694, 574);
+            dataGridView1.TabIndex = 2;
             // 
             // MÜŞTERİLER
             // 
@@ -321,6 +321,7 @@
             Controls.Add(dataGridView1);
             Name = "MÜŞTERİLER";
             Text = "MÜŞTERİLER";
+            Load += MÜŞTERİLER_Load;
             ((System.ComponentModel.ISupportInitialize)NUADET).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

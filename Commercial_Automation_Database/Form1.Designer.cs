@@ -91,6 +91,7 @@
             müşterilerToolStripMenuItem.Size = new Size(118, 82);
             müşterilerToolStripMenuItem.Text = "Müşteriler";
             müşterilerToolStripMenuItem.TextImageRelation = TextImageRelation.ImageAboveText;
+            müşterilerToolStripMenuItem.Click += müşterilerToolStripMenuItem_Click;
             // 
             // şirketlerToolStripMenuItem
             // 

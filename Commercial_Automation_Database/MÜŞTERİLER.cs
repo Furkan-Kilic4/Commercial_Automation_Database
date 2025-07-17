@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace Commercial_Automation_Database
 {
@@ -16,10 +18,23 @@ namespace Commercial_Automation_Database
         {
             InitializeComponent();
         }
+        sqlbaglanti bgl = new sqlbaglanti();
+        void listele()
+        {
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter("Select * from TBL_MUSTERILER",bgl.baglanti());
+            da.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+        }
 
         private void TXTMODEL_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void MÜŞTERİLER_Load(object sender, EventArgs e)
+        {
+            listele();
         }
     }
 }

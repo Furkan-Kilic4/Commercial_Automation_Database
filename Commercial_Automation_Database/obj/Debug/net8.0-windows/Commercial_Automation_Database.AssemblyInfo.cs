@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Commercial_Automation_Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dde8a638f2e312ade66c2b729a0c64cd3808269")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe6aac38870a3d7691edbaf8f702d2c0879b0445")]
 [assembly: System.Reflection.AssemblyProductAttribute("Commercial_Automation_Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Commercial_Automation_Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

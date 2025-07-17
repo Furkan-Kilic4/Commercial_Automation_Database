@@ -24,5 +24,18 @@ namespace Commercial_Automation_Database
             urun.StartPosition = FormStartPosition.CenterParent;
             urun.ShowDialog(this);
         }
+
+        private void müþterilerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var musteri = new MÜÞTERÝLER
+            {
+                ShowInTaskbar = false,
+                MinimizeBox = false,
+                MaximizeBox = false,
+
+            };
+            musteri.StartPosition = FormStartPosition.CenterParent;
+            musteri.ShowDialog(this);
+        }
     }
 }
