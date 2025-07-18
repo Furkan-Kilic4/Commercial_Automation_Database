@@ -146,3 +146,4 @@ C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial
 C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial_Automation_Database\obj\Debug\net8.0-windows\Commercial_Automation_Database.MÜŞTERİLER.resources
 C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial_Automation_Database\obj\Debug\net8.0-windows\Commercial_Automation_Database.SİRKETLER.resources
 C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial_Automation_Database\obj\Debug\net8.0-windows\Commercial_Automation_Database.PERSONELLER.resources
+C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial_Automation_Database\obj\Debug\net8.0-windows\Commercial_Automation_Database.GİDERLER.resources

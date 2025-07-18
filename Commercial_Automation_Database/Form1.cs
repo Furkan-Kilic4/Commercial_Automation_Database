@@ -64,5 +64,18 @@ namespace Commercial_Automation_Database
             personel.StartPosition = FormStartPosition.CenterParent;
             personel.ShowDialog(this);
         }
+
+        private void giderlerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var giderler = new GÝDERLER
+            {
+                ShowInTaskbar = false,
+                MinimizeBox = false,
+                MaximizeBox = false,
+
+            };
+            giderler.StartPosition = FormStartPosition.CenterParent;
+            giderler.ShowDialog(this);
+        }
     }
 }

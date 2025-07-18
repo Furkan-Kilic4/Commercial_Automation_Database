@@ -121,6 +121,7 @@
             giderlerToolStripMenuItem.Size = new Size(98, 82);
             giderlerToolStripMenuItem.Text = "Giderler";
             giderlerToolStripMenuItem.TextImageRelation = TextImageRelation.ImageAboveText;
+            giderlerToolStripMenuItem.Click += giderlerToolStripMenuItem_Click;
             // 
             // kasaToolStripMenuItem
             // 

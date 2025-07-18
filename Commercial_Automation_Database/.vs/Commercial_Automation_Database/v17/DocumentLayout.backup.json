@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\personeller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:personeller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\g\u0130derler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:g\u0130derler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\g\u0130derler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:g\u0130derler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +19,20 @@
       "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\personeller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:personeller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\m\u00FC\u015Fter\u0130ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:m\u00FC\u015Fter\u0130ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\m\u00FC\u015Fter\u0130ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:m\u00FC\u015Fter\u0130ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\s\u0130rketler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:s\u0130rketler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\personeller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -25,18 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\s\u0130rketler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:s\u0130rketler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\s\u0130rketler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:s\u0130rketler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\m\u00FC\u015Fter\u0130ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:m\u00FC\u015Fter\u0130ler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\\u00FCr\u00FCnler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|solutionrelative:\u00FCr\u00FCnler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A111C5BD-086D-4DAB-9342-6559CBA1C3E9}|Commercial_Automation_Database.csproj|c:\\users\\hp\\desktop\\ticaret otomasyonu\\commercial_automation_database\\commercial_automation_database\\sqlbaglanti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,32 +59,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "G\u0130DERLER.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\G\u0130DERLER.cs",
+              "RelativeDocumentMoniker": "G\u0130DERLER.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\G\u0130DERLER.cs [Tasar\u0131m]",
+              "RelativeToolTip": "G\u0130DERLER.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T11:05:42.824Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "G\u0130DERLER.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\G\u0130DERLER.cs",
+              "RelativeDocumentMoniker": "G\u0130DERLER.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\G\u0130DERLER.cs",
+              "RelativeToolTip": "G\u0130DERLER.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAJoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:55:13.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PERSONELLER.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\PERSONELLER.cs",
               "RelativeDocumentMoniker": "PERSONELLER.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\PERSONELLER.cs",
               "RelativeToolTip": "PERSONELLER.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAALIAAAAAAAAAAAAAAMsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T08:05:55.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "M\u00DC\u015ETER\u0130LER.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\M\u00DC\u015ETER\u0130LER.cs",
               "RelativeDocumentMoniker": "M\u00DC\u015ETER\u0130LER.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\M\u00DC\u015ETER\u0130LER.cs",
               "RelativeToolTip": "M\u00DC\u015ETER\u0130LER.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAK8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvy8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T07:33:36.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PERSONELLER.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\PERSONELLER.cs",
               "RelativeDocumentMoniker": "PERSONELLER.cs",
@@ -92,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "S\u0130RKETLER.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\S\u0130RKETLER.cs",
               "RelativeDocumentMoniker": "S\u0130RKETLER.cs",
@@ -105,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "S\u0130RKETLER.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\S\u0130RKETLER.cs",
               "RelativeDocumentMoniker": "S\u0130RKETLER.cs",
@@ -117,20 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "\u00DCR\u00DCNLER.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\\u00DCR\u00DCNLER.cs",
-              "RelativeDocumentMoniker": "\u00DCR\u00DCNLER.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\\u00DCR\u00DCNLER.cs",
-              "RelativeToolTip": "\u00DCR\u00DCNLER.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAAAKYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:45:04.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "M\u00DC\u015ETER\u0130LER.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\M\u00DC\u015ETER\u0130LER.cs",
               "RelativeDocumentMoniker": "M\u00DC\u015ETER\u0130LER.cs",
@@ -142,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "sqlbaglanti.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\sqlbaglanti.cs",
               "RelativeDocumentMoniker": "sqlbaglanti.cs",
@@ -150,25 +166,24 @@
               "RelativeToolTip": "sqlbaglanti.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T05:42:34.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T05:42:34.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAE0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T10:36:00.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Ticaret Otomasyonu\\Commercial_Automation_Database\\Commercial_Automation_Database\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
