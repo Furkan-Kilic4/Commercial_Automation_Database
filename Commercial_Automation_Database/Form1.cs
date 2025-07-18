@@ -51,5 +51,18 @@ namespace Commercial_Automation_Database
             sirket.ShowDialog(this);
 
         }
+
+        private void personellerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var personel = new PERSONELLER
+            {
+                ShowInTaskbar = false,
+                MinimizeBox = false,
+                MaximizeBox = false,
+
+            };
+            personel.StartPosition = FormStartPosition.CenterParent;
+            personel.ShowDialog(this);
+        }
     }
 }

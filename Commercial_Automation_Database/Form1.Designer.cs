@@ -111,6 +111,7 @@
             personellerToolStripMenuItem.Size = new Size(127, 82);
             personellerToolStripMenuItem.Text = "Personeller";
             personellerToolStripMenuItem.TextImageRelation = TextImageRelation.ImageAboveText;
+            personellerToolStripMenuItem.Click += personellerToolStripMenuItem_Click;
             // 
             // giderlerToolStripMenuItem
             // 

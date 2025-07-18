@@ -1,6 +1,6 @@
 ﻿namespace Commercial_Automation_Database
 {
-    partial class SİRKETLER
+    partial class PERSONELLER
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
             label10 = new Label();
-            TXTFALLIYET = new TextBox();
+            TXTGOREV = new TextBox();
             label9 = new Label();
             RTXTADRES = new RichTextBox();
             CBILCE = new ComboBox();
             CBIL = new ComboBox();
-            groupBox1 = new GroupBox();
-            TXTVER = new TextBox();
-            label13 = new Label();
-            TXTYAD = new TextBox();
-            label12 = new Label();
-            MTXTTEL2 = new MaskedTextBox();
+            MTXTTC = new MaskedTextBox();
             BTNGUNCELLE = new Button();
             BTNSIL = new Button();
             BTNKAYDET = new Button();
@@ -52,50 +46,41 @@
             label5 = new Label();
             MTXTTEL = new MaskedTextBox();
             label4 = new Label();
-            TXTYTKL = new TextBox();
+            TXTSOYAD = new TextBox();
             label3 = new Label();
             TXTAD = new TextBox();
             label2 = new Label();
             TXTID = new TextBox();
             label1 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            groupBox1.SuspendLayout();
+            groupBox1 = new GroupBox();
+            dataGridView1 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)NUADET).BeginInit();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 20);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(694, 574);
-            dataGridView1.TabIndex = 4;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label10
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label10.Location = new Point(45, 428);
+            label10.Location = new Point(69, 375);
             label10.Name = "label10";
-            label10.Size = new Size(108, 28);
+            label10.Size = new Size(84, 28);
             label10.TabIndex = 25;
-            label10.Text = "FALLİYET 1:";
+            label10.Text = "GÖREVİ:";
             // 
-            // TXTFALLIYET
+            // TXTGOREV
             // 
-            TXTFALLIYET.Location = new Point(159, 431);
-            TXTFALLIYET.Name = "TXTFALLIYET";
-            TXTFALLIYET.Size = new Size(185, 27);
-            TXTFALLIYET.TabIndex = 24;
+            TXTGOREV.Location = new Point(159, 375);
+            TXTGOREV.Name = "TXTGOREV";
+            TXTGOREV.Size = new Size(185, 27);
+            TXTGOREV.TabIndex = 24;
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label9.Location = new Point(77, 368);
+            label9.Location = new Point(77, 310);
             label9.Name = "label9";
             label9.Size = new Size(76, 28);
             label9.TabIndex = 23;
@@ -103,7 +88,7 @@
             // 
             // RTXTADRES
             // 
-            RTXTADRES.Location = new Point(159, 354);
+            RTXTADRES.Location = new Point(159, 295);
             RTXTADRES.Name = "RTXTADRES";
             RTXTADRES.Size = new Size(185, 71);
             RTXTADRES.TabIndex = 22;
@@ -112,7 +97,7 @@
             // CBILCE
             // 
             CBILCE.FormattingEnabled = true;
-            CBILCE.Location = new Point(159, 287);
+            CBILCE.Location = new Point(159, 254);
             CBILCE.Name = "CBILCE";
             CBILCE.Size = new Size(185, 28);
             CBILCE.TabIndex = 21;
@@ -120,95 +105,24 @@
             // CBIL
             // 
             CBIL.FormattingEnabled = true;
-            CBIL.Location = new Point(159, 253);
+            CBIL.Location = new Point(159, 220);
             CBIL.Name = "CBIL";
             CBIL.Size = new Size(185, 28);
             CBIL.TabIndex = 20;
             CBIL.SelectedIndexChanged += CBIL_SelectedIndexChanged;
             // 
-            // groupBox1
+            // MTXTTC
             // 
-            groupBox1.Controls.Add(TXTVER);
-            groupBox1.Controls.Add(label13);
-            groupBox1.Controls.Add(TXTYAD);
-            groupBox1.Controls.Add(label12);
-            groupBox1.Controls.Add(MTXTTEL2);
-            groupBox1.Controls.Add(label10);
-            groupBox1.Controls.Add(TXTFALLIYET);
-            groupBox1.Controls.Add(label9);
-            groupBox1.Controls.Add(RTXTADRES);
-            groupBox1.Controls.Add(CBILCE);
-            groupBox1.Controls.Add(CBIL);
-            groupBox1.Controls.Add(BTNGUNCELLE);
-            groupBox1.Controls.Add(BTNSIL);
-            groupBox1.Controls.Add(BTNKAYDET);
-            groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(TXTMAIL);
-            groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(NUADET);
-            groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(MTXTTEL);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(TXTYTKL);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(TXTAD);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(TXTID);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(741, 20);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(359, 574);
-            groupBox1.TabIndex = 5;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "ŞİRKET BİLGİLERİ";
-            // 
-            // TXTVER
-            // 
-            TXTVER.Location = new Point(159, 321);
-            TXTVER.Name = "TXTVER";
-            TXTVER.Size = new Size(185, 27);
-            TXTVER.TabIndex = 32;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label13.Location = new Point(9, 318);
-            label13.Name = "label13";
-            label13.Size = new Size(144, 28);
-            label13.TabIndex = 31;
-            label13.Text = "VERGI DAİRESİ:";
-            // 
-            // TXTYAD
-            // 
-            TXTYAD.Location = new Point(159, 121);
-            TXTYAD.Name = "TXTYAD";
-            TXTYAD.Size = new Size(185, 27);
-            TXTYAD.TabIndex = 30;
-            TXTYAD.TextChanged += textBox2_TextChanged;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label12.Location = new Point(25, 120);
-            label12.Name = "label12";
-            label12.Size = new Size(128, 28);
-            label12.TabIndex = 29;
-            label12.Text = "Y.AD-SOYAD:";
-            // 
-            // MTXTTEL2
-            // 
-            MTXTTEL2.Location = new Point(159, 187);
-            MTXTTEL2.Mask = "(999) 000-0000";
-            MTXTTEL2.Name = "MTXTTEL2";
-            MTXTTEL2.Size = new Size(185, 27);
-            MTXTTEL2.TabIndex = 26;
+            MTXTTC.Location = new Point(159, 121);
+            MTXTTC.Mask = "00000000000";
+            MTXTTC.Name = "MTXTTC";
+            MTXTTC.Size = new Size(185, 27);
+            MTXTTC.TabIndex = 19;
+            MTXTTC.ValidatingType = typeof(int);
             // 
             // BTNGUNCELLE
             // 
-            BTNGUNCELLE.Location = new Point(159, 504);
+            BTNGUNCELLE.Location = new Point(159, 471);
             BTNGUNCELLE.Name = "BTNGUNCELLE";
             BTNGUNCELLE.Size = new Size(185, 29);
             BTNGUNCELLE.TabIndex = 18;
@@ -217,7 +131,7 @@
             // 
             // BTNSIL
             // 
-            BTNSIL.Location = new Point(159, 539);
+            BTNSIL.Location = new Point(159, 521);
             BTNSIL.Name = "BTNSIL";
             BTNSIL.Size = new Size(185, 29);
             BTNSIL.TabIndex = 17;
@@ -227,7 +141,7 @@
             // 
             // BTNKAYDET
             // 
-            BTNKAYDET.Location = new Point(159, 469);
+            BTNKAYDET.Location = new Point(159, 424);
             BTNKAYDET.Name = "BTNKAYDET";
             BTNKAYDET.Size = new Size(185, 29);
             BTNKAYDET.TabIndex = 16;
@@ -239,7 +153,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label7.Location = new Point(102, 287);
+            label7.Location = new Point(102, 254);
             label7.Name = "label7";
             label7.Size = new Size(51, 28);
             label7.TabIndex = 14;
@@ -247,7 +161,7 @@
             // 
             // TXTMAIL
             // 
-            TXTMAIL.Location = new Point(159, 220);
+            TXTMAIL.Location = new Point(159, 187);
             TXTMAIL.Name = "TXTMAIL";
             TXTMAIL.Size = new Size(185, 27);
             TXTMAIL.TabIndex = 13;
@@ -256,7 +170,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label8.Location = new Point(123, 249);
+            label8.Location = new Point(123, 220);
             label8.Name = "label8";
             label8.Size = new Size(30, 28);
             label8.TabIndex = 12;
@@ -273,7 +187,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label6.Location = new Point(92, 216);
+            label6.Location = new Point(92, 187);
             label6.Name = "label6";
             label6.Size = new Size(61, 28);
             label6.TabIndex = 10;
@@ -283,11 +197,11 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label5.Location = new Point(42, 186);
+            label5.Location = new Point(116, 121);
             label5.Name = "label5";
-            label5.Size = new Size(111, 28);
+            label5.Size = new Size(37, 28);
             label5.TabIndex = 9;
-            label5.Text = "TELEFON 2:";
+            label5.Text = "TC:";
             // 
             // MTXTTEL
             // 
@@ -307,12 +221,12 @@
             label4.TabIndex = 6;
             label4.Text = "TELEFON:";
             // 
-            // TXTYTKL
+            // TXTSOYAD
             // 
-            TXTYTKL.Location = new Point(159, 88);
-            TXTYTKL.Name = "TXTYTKL";
-            TXTYTKL.Size = new Size(185, 27);
-            TXTYTKL.TabIndex = 5;
+            TXTSOYAD.Location = new Point(159, 88);
+            TXTSOYAD.Name = "TXTSOYAD";
+            TXTSOYAD.Size = new Size(185, 27);
+            TXTSOYAD.TabIndex = 5;
             // 
             // label3
             // 
@@ -322,7 +236,7 @@
             label3.Name = "label3";
             label3.Size = new Size(78, 28);
             label3.TabIndex = 4;
-            label3.Text = "YETKILI:";
+            label3.Text = "SOYAD:";
             // 
             // TXTAD
             // 
@@ -352,39 +266,82 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label1.Location = new Point(118, 23);
+            label1.Location = new Point(118, 18);
             label1.Name = "label1";
             label1.Size = new Size(35, 28);
             label1.TabIndex = 0;
             label1.Text = "ID:";
             // 
-            // SİRKETLER
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(label10);
+            groupBox1.Controls.Add(TXTGOREV);
+            groupBox1.Controls.Add(label9);
+            groupBox1.Controls.Add(RTXTADRES);
+            groupBox1.Controls.Add(CBILCE);
+            groupBox1.Controls.Add(CBIL);
+            groupBox1.Controls.Add(MTXTTC);
+            groupBox1.Controls.Add(BTNGUNCELLE);
+            groupBox1.Controls.Add(BTNSIL);
+            groupBox1.Controls.Add(BTNKAYDET);
+            groupBox1.Controls.Add(label7);
+            groupBox1.Controls.Add(TXTMAIL);
+            groupBox1.Controls.Add(label8);
+            groupBox1.Controls.Add(NUADET);
+            groupBox1.Controls.Add(label6);
+            groupBox1.Controls.Add(label5);
+            groupBox1.Controls.Add(MTXTTEL);
+            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(TXTSOYAD);
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(TXTAD);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(TXTID);
+            groupBox1.Controls.Add(label1);
+            groupBox1.Location = new Point(741, 20);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(359, 574);
+            groupBox1.TabIndex = 5;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "PERSONEL BİLGİLERİ";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(12, 20);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(694, 574);
+            dataGridView1.TabIndex = 4;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            // 
+            // PERSONELLER
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1112, 615);
-            Controls.Add(dataGridView1);
             Controls.Add(groupBox1);
-            Name = "SİRKETLER";
-            Text = "SİRKETLER";
-            Load += SİRKETLER_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Controls.Add(dataGridView1);
+            Name = "PERSONELLER";
+            Text = "PERSONELLER";
+            Load += PERSONELLER_Load;
+            ((System.ComponentModel.ISupportInitialize)NUADET).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)NUADET).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
         private Label label10;
-        private TextBox TXTFALLIYET;
+        private TextBox TXTGOREV;
         private Label label9;
         private RichTextBox RTXTADRES;
         private ComboBox CBILCE;
         private ComboBox CBIL;
-        private GroupBox groupBox1;
+        private MaskedTextBox MTXTTC;
         private Button BTNGUNCELLE;
         private Button BTNSIL;
         private Button BTNKAYDET;
@@ -396,16 +353,13 @@
         private Label label5;
         private MaskedTextBox MTXTTEL;
         private Label label4;
-        private TextBox TXTYTKL;
+        private TextBox TXTSOYAD;
         private Label label3;
         private TextBox TXTAD;
         private Label label2;
         private TextBox TXTID;
         private Label label1;
-        private TextBox TXTYAD;
-        private Label label12;
-        private MaskedTextBox MTXTTEL2;
-        private TextBox TXTVER;
-        private Label label13;
+        private GroupBox groupBox1;
+        private DataGridView dataGridView1;
     }
 }
