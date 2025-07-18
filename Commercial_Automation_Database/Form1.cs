@@ -77,5 +77,18 @@ namespace Commercial_Automation_Database
             giderler.StartPosition = FormStartPosition.CenterParent;
             giderler.ShowDialog(this);
         }
+
+        private void bankalarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var bankalar = new BANKALAR
+            {
+                ShowInTaskbar = false,
+                MinimizeBox = false,
+                MaximizeBox = false,
+
+            };
+            bankalar.StartPosition = FormStartPosition.CenterParent;
+            bankalar.ShowDialog(this);
+        }
     }
 }

@@ -140,6 +140,7 @@
             bankalarToolStripMenuItem.Size = new Size(103, 82);
             bankalarToolStripMenuItem.Text = "Bankalar";
             bankalarToolStripMenuItem.TextImageRelation = TextImageRelation.ImageAboveText;
+            bankalarToolStripMenuItem.Click += bankalarToolStripMenuItem_Click;
             // 
             // faturalarToolStripMenuItem
             // 

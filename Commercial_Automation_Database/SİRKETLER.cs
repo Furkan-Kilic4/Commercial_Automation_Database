@@ -105,7 +105,7 @@ namespace Commercial_Automation_Database
                 return;
             }
 
-            string sorgu = "insert into TBL_SIRKETLER (AD,YETKILI,YETKILIAD,YETKILISOYAD,TELEFON1,TELEFON2,MAIL,IL,ILCE,VERGIDAIRESI,ADRES) values (@P1,@P2,@P3,@P4,@P5,@P6,@P7,@P8,@P9,@P10,@P11)";
+            string sorgu = "insert into TBL_SIRKETLER (AD,YETKILI,YETKILIADSOYAD,TELEFON1,TELEFON2,MAIL,IL,ILCE,VERGIDAIRESI,ADRES,FALLIYET) values (@P1,@P2,@P3,@P4,@P5,@P6,@P7,@P8,@P9,@P10,@P11)";
             SqlCommand cm = new SqlCommand(sorgu, bgl.baglanti());
             cm.Parameters.AddWithValue("@P1", TXTAD.Text);
             cm.Parameters.AddWithValue("@P2", TXTYTKL.Text);
