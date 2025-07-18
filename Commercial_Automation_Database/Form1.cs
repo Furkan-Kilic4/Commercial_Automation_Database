@@ -37,5 +37,19 @@ namespace Commercial_Automation_Database
             musteri.StartPosition = FormStartPosition.CenterParent;
             musteri.ShowDialog(this);
         }
+
+        private void þirketlerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var sirket = new SÝRKETLER
+            {
+                ShowInTaskbar = false,
+                MinimizeBox = false,
+                MaximizeBox = false,
+
+            };
+            sirket.StartPosition = FormStartPosition.CenterParent;
+            sirket.ShowDialog(this);
+
+        }
     }
 }

@@ -101,6 +101,7 @@
             şirketlerToolStripMenuItem.Size = new Size(101, 82);
             şirketlerToolStripMenuItem.Text = "Şirketler";
             şirketlerToolStripMenuItem.TextImageRelation = TextImageRelation.ImageAboveText;
+            şirketlerToolStripMenuItem.Click += şirketlerToolStripMenuItem_Click;
             // 
             // personellerToolStripMenuItem
             // 

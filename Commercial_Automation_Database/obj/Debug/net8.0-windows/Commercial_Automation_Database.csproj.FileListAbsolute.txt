@@ -144,3 +144,4 @@ C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial
 C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial_Automation_Database\obj\Debug\net8.0-windows\Commercial_Automation_Database.csproj.AssemblyReference.cache
 C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial_Automation_Database\obj\Debug\net8.0-windows\Commerci.F48F3B68.Up2Date
 C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial_Automation_Database\obj\Debug\net8.0-windows\Commercial_Automation_Database.MÜŞTERİLER.resources
+C:\Users\hp\Desktop\Ticaret Otomasyonu\Commercial_Automation_Database\Commercial_Automation_Database\obj\Debug\net8.0-windows\Commercial_Automation_Database.SİRKETLER.resources
